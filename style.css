@@ -1,0 +1,48 @@
+/* font */
+
+/* Merri */
+
+.fontMerri{
+    font-family: 'Merriweather', serif;
+}
+
+/* Inter */
+.fontInter{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0)),url(resources/Banner.png);
+    ;
+    width: 1320px;
+    height: 600px;
+}
+
+.banner-text{
+    color:white;
+    position: relative;
+    top: 177px;
+    text-align: center;
+    width: 688px;
+    margin: 0 auto;
+}
+
+.banner-text p{
+    font-size: 32px;
+    margin-bottom: 7px;
+}
+
+.banner-text h2{
+    font-size: 72px;
+    font-weight: 900px;
+    margin-top: 0;
+}
+
