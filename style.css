@@ -21,7 +21,7 @@ body{
 
 
 .banner{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.0)),url(resources/Banner.png);
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,0.0)),url(resources/Banner.png);
     ;
     width: 1320px;
     height: 600px;
@@ -54,6 +54,7 @@ body{
     width: 950px;
     margin: 0 auto;
     padding-bottom: 10px;
+    margin-bottom: 80px;
 }
 
 .offer-text{
@@ -84,10 +85,10 @@ body{
 /* welcome-banner */
 
 .welcome-banner{
-    background:linear-gradient(to right, rgba(0,0,0,0.9),rgba(0,0,0,0)), url(resources/Vectorrr.png);
+    background:linear-gradient(to right, rgba(0,0,0,.99),rgba(0,0,0,0)), url(resources/Vectorrr.png);
     width: 1320px;
     height: 600px;
-    margin: 20px 0;
+    margin: 80px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,11 +125,23 @@ body{
 .welcome-img img{
     height: 500px;
 }
+.weclcome-btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    color:white;
+    border:none
+}
+.weclcome-btn:hover{
+    padding: 12px 25px;
+    background-color: rgba(196, 192, 201, 0.171);
+    color:white;
+    border:none;
+}
 
 /* time section */
 .time{
     width: 1320px;
-    margin: 40px auto;
+    margin: 80px auto;
     background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     height: 482px;
 }
@@ -168,7 +181,7 @@ body{
 /* coming soon */
 .coming-soon{
     width: 1320px;
-    margin: 0 auto;
+    margin: 80px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -250,9 +263,10 @@ body{
 
 .holiday-text{
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 .holiday-text h6{
+    padding-top: 80px;
     color: #070211;
     font-size: 24px;
     font-weight: 500;
@@ -309,13 +323,14 @@ body{
     margin-top: 0;
     bottom: 112px;
     z-index: -1;
+    margin-bottom: 20px;
 }
 
 /* Portfolio */
 
 .protfolio{
     width: 1320px;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 
 .protfolio-text{
@@ -356,6 +371,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
     transition: 6s;
+    
 }
 
 .porfolio-img .img:hover{
@@ -368,7 +384,7 @@ body{
 .mail-box{
     width: 1320px;
     height: 616px;
-    margin: 0 auto;
+    margin: 80px auto;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
@@ -382,6 +398,7 @@ body{
     height: 150px;
    margin:  0 auto;
    padding-top: 80px;
+   
 }
 
 .box-text{
@@ -432,4 +449,107 @@ body{
     font-weight: 600;
     position: relative;
     right: 100px;
+}
+.box-input .input-btn:hover{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(62, 184, 92);
+    border:none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 100px;
+}
+
+/* footer */
+
+footer{
+    width: 1320px;
+    margin:  auto;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+address{
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+
+.contect .cell{
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.contect .cell p{
+
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contect .web{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.contect .web p{
+    
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; */
+}
+
+.footer-icon{
+    width: 680px;
+    margin: 40px auto;
+    position: relative;
+    left: 200px;
+   
+}
+.footer-icon img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.footer-icon img:hover{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.line{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #2c2835;
 }
