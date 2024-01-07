@@ -311,3 +311,55 @@ body{
     z-index: -1;
 }
 
+/* Portfolio */
+
+.protfolio{
+    width: 1320px;
+    margin: 100px auto;
+}
+
+.protfolio-text{
+    
+}
+.porfolio-text h5{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.porfolio-text h5:hover{
+    color: rgb(38, 207, 179);
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.porfolio-text h2{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.porfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-top: 0;
+}
+
+.porfolio-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    transition: 6s;
+}
+
+.porfolio-img .img:hover{
+   cursor: pointer;
+    transform: scaleX(.5);
+}
+
