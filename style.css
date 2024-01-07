@@ -46,9 +46,13 @@ body{
     margin-top: 0;
 }
 
+
+/* offer-category  */
+
 .offer-category{
     width: 950px;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .offer-text{
@@ -74,4 +78,45 @@ body{
     color: #070211;
     margin-top: 5px;
     margin-bottom: 48px;
+}
+
+/* welcome-banner */
+
+.welcome-banner{
+    background:linear-gradient(to right, rgba(0,0,0,0.9),rgba(0,0,0,0)), url(resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-text{
+    color: white;
+    position: relative;
+    left: 100px;
+    /* top: 126px; */
+    width: 60%;
+    
+}
+
+.welcome-text h2{
+    font-size: 64px;
+    font-weight: 900px;
+    width: 70%;
+}
+.welcome-text p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.80);
+    width: 90%;
+}
+.welcome-text span{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.welcome-img img{
+    height: 500px;
 }
