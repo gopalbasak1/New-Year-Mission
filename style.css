@@ -164,3 +164,78 @@ body{
     background-color: rgb(133, 155, 202);
     color: white
 }
+
+/* coming soon */
+.coming-soon{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coming-1st-text{
+    width: 35%;
+    margin-right: 70px;
+}
+
+.coming-1st-text h6{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+    margin-bottom: 10px;
+}
+.coming-1st-text h6:hover{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(153, 142, 142);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.coming-1st-text h3{
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.coming-1st-text p{
+    margin-top: 22px;
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-img{
+    border: 15px solid #F00;
+    border-radius: 100%;
+    padding: 49px;
+    width: 35%;
+    
+}
+
+.coming-img .img{
+    width: 364.844px;
+    height: 364.844px;
+}
+.coming-2nd-text{
+    margin-left: 118px;
+    
+}
+.coming-2nd-text h3{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.coming-2nd-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-top: 0;
+    margin-bottom: 48px;
+}
