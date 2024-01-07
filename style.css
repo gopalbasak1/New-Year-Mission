@@ -321,7 +321,7 @@ body{
     position: relative;
     -top: 200px;
     margin-top: 0;
-    bottom: 112px;
+    bottom: 113px;
     z-index: -1;
     margin-bottom: 20px;
 }
@@ -333,9 +333,7 @@ body{
     margin: 80px auto;
 }
 
-.protfolio-text{
-    
-}
+
 .porfolio-text h5{
     color: #F00;
     font-size: 24px;
@@ -399,10 +397,6 @@ body{
    margin:  0 auto;
    padding-top: 80px;
    
-}
-
-.box-text{
-    
 }
 
 .box-text h2{
@@ -471,7 +465,6 @@ footer{
     margin:  auto;
     background: black;
     color: white;
-    border-radius: 10px;
 }
 .footer-text{
     display: flex;
@@ -517,8 +510,6 @@ line-height: 40px;
 .social{
     margin-left: 10px;
     margin-right: 10px;
-    /* border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd; */
 }
 
 .footer-icon{
