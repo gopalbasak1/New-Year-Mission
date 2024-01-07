@@ -46,3 +46,32 @@ body{
     margin-top: 0;
 }
 
+.offer-category{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.offer-text{
+    text-align: center;
+}
+
+.offer-text h4{
+    font-size: 88px;
+    font-weight: 700px;
+    color: #F00;
+    margin-bottom: 0px;
+}
+
+.offer-text p{
+    font-size: 24px;
+    font-weight: 500px;
+    color: #F00;
+    margin-top: 48px;
+}
+.offer-text h5{
+    font-size: 48px;
+    font-weight: 700px;
+    color: #070211;
+    margin-top: 5px;
+    margin-bottom: 48px;
+}
