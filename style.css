@@ -363,3 +363,73 @@ body{
     transform: scaleX(.5);
 }
 
+
+/* mail-box */
+.mail-box{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.box{
+  text-align: center;
+}
+
+.box-img{
+    width: 150px;
+    height: 150px;
+   margin:  0 auto;
+   padding-top: 80px;
+}
+
+.box-text{
+    
+}
+
+.box-text h2{
+    margin-top: 40px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.box-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    margin-top: 22px;
+}
+
+.box-input input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    margin-top: 48px;
+}
+
+#email{
+    color: #d0cfd2;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+.box-input .input-btn{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border:none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 100px;
+}
